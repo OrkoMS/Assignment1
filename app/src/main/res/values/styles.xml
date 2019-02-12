@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="AppTheme.FlatUiKitBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorPrimary">@color/fColorPrimary</item>
+        <item name="colorPrimaryDark">@color/fColorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.Lilypadbar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lColorPrimaryDark</item>
+    </style>
+    <style name="AppTheme.KitchenAidBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/kColorPrimary</item>
+        <item name="colorPrimaryDark">@color/kColorPrimaryDark</item>
+    </style>
+</resources>

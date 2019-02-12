@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="forward"
+        android:id="@+id/forward_btn_ab"
+        android:icon="@drawable/forward_ab_logo"
+        app:showAsAction="always"
+        android:orderInCategory="1">
+    </item>
+    <item
+        android:title="search"
+        android:id="@+id/search_btn_ab"
+        android:icon="@drawable/search_logo"
+        app:showAsAction="always"
+        android:orderInCategory="2">
+    </item>
+
+    <item
+        android:title="cart"
+        android:id="@+id/cart_btn_ab"
+        android:icon="@drawable/cart_ab_logo"
+        app:showAsAction="always"
+        android:orderInCategory="3">
+    </item>
+</menu>

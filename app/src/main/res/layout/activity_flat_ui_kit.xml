@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FlatUiKitActivity"
+    android:orientation="vertical"
+    android:weightSum="13"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#f6825b"
+        android:text="FLAT UI KIT"
+        android:textSize="35dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:paddingTop="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="6"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:background="#f9b258"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="09:30"
+                android:textSize="30dp"
+                android:background="#f9b258"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:paddingTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JAN 10, 2014"
+                android:textSize="16dp"
+                android:background="#f9b258"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:paddingBottom="5dp"
+                />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:src="@mipmap/sun_logo"
+                android:background="#f9b258"
+                android:gravity="center_horizontal"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:fontFamily="monospace"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="25°"
+                android:textSize="32dp"
+                android:background="#f9b258"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:paddingTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NEW YORK"
+                android:textSize="18dp"
+                android:background="#f9b258"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:gravity="center_horizontal"
+                android:fontFamily="monospace"
+                android:paddingBottom="3dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/email_logo"
+                android:paddingTop="16dp"
+                android:background="#95d8e9"
+                android:gravity="center_horizontal"/>
+            <ImageView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@mipmap/cloud_up"
+                android:background="#666666"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:background="#F48059"
+            android:src="@mipmap/search_logo"
+            android:padding="16dp"
+            android:layout_gravity="right"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:background="#F48059"
+            android:text="WWW"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"/>
+
+        <ImageView
+            android:layout_marginLeft="16dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:src="@mipmap/clock_logo"
+            android:background="#f6b35a"
+            android:gravity="center_horizontal"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#95d8e9"
+            android:src="@mipmap/music_note_logo"
+            android:padding="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="#95d8e9"
+            android:text="NOW PLAYING"
+            android:textSize="35dp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical" />
+    </LinearLayout>
+</LinearLayout>

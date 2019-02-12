@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#292929</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="fColorPrimary">#F5784E</color>
+    <color name="fColorPrimaryDark">#F86331</color>
+
+    <color name="lColorPrimary">#279098</color>
+    <color name="lColorPrimaryDark">#000000</color>
+
+    <color name="kColorPrimary">#ce0f2e</color>
+    <color name="kColorPrimaryDark">#a0122a</color>
+</resources>
